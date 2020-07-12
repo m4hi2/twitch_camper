@@ -14,7 +14,7 @@ PS: Only use for commercial videos, don't ruin the day of streamers with this. T
 - Run `virtualenv venv --python=python3` to create a virtualenv
 - Activate the virtualenv by `source ./venv/bin/activate` if you're on Linux/macOS and `& ./venv/Scrips/activate.ps1` from Windows powershell.
 - Install the required libraries for this program by running `pip install -r requirements.txt`
-- Download [Firefox Webdriver](https://github.com/mozilla/geckodriver/releases/tag/v0.26.0) and put it in your `venv/Scripts` directory if you're on Windows and in `venv/bin` directory if you're on Linux/macOS
+- Download [Firefox Webdriver](https://github.com/mozilla/geckodriver/releases/tag/v0.26.0) and put it in your `venv/Scripts` directory if you're on Windows and in `venv/bin` directory if you're on Linux/macOS after unzipping, ofcourse
 
 ## How to use?
 
