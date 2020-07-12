@@ -43,8 +43,7 @@ moji_spam = [':)', ':(', ':o', ':z', 'B)', ':\\', ';)', ';p', ':p', 'R)', 'o_O',
 while go == 1:
     if not gg:
         try:
-            channel_status = driver.find_element_by_class_name(
-                "channel-status-info").text
+            channel_status = driver.find_element_by_class_name("channel-status-info").text
         except:
             print(f"Channel Status Not found.")
         if channel_status != "OFFLINE":
